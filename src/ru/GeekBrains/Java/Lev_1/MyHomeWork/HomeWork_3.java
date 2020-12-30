@@ -16,10 +16,7 @@ public class HomeWork_3 {
     static int limitNumber = 9;
     static int tryNumber = 3;
 
-
-
     public static void main(String[] args){
-
 
         System.out.printf("Привет! Добро пожаловать в игру \"Угадай число\"! Я загадаю число от 0 до %d, а твоя задача - отгадать его. Поехали!", limitNumber);
         playGame();
@@ -59,8 +56,6 @@ public class HomeWork_3 {
             }
 
         } while (true);
-
-
     }
 
 }
